@@ -47,6 +47,20 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        status: {
+          pending: "hsl(var(--status-pending))",
+          "pending-foreground": "hsl(var(--status-pending-foreground))",
+          progress: "hsl(var(--status-progress))",
+          "progress-foreground": "hsl(var(--status-progress-foreground))",
+          resolved: "hsl(var(--status-resolved))",
+          "resolved-foreground": "hsl(var(--status-resolved-foreground))",
+        },
+        civic: {
+          blue: "hsl(var(--civic-blue))",
+          "blue-light": "hsl(var(--civic-blue-light))",
+          gray: "hsl(var(--civic-gray))",
+          "gray-light": "hsl(var(--civic-gray-light))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
